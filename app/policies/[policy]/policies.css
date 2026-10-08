@@ -1,0 +1,102 @@
+.policy-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  height: 105px;
+  gap: 20px;
+}
+.policy-main {
+  max-width: 800px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.policy-main h1 {
+  white-space: normal;
+  font-size: 55px;
+  letter-spacing: -2.5px;
+  line-height: 1.1;
+  font-weight: 500;
+  margin: 0 0 20px;
+}
+.policy-intro {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #829173;
+  max-width: 650px;
+}
+.policy-nav {
+  display: flex;
+  gap: 24px;
+  margin: 35px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 18px 0;
+  flex-wrap: wrap;
+}
+.policy-nav a {
+  font-size: 11px;
+  color: #8c997d;
+}
+.policy-nav a[aria-current] {
+  color: var(--green);
+  font-weight: 600;
+}
+.policy-main section {
+  margin-bottom: 30px;
+}
+.policy-main section h2 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  margin: 0 0 12px;
+}
+.policy-main section p {
+  font-size: 13px;
+  color: #839175;
+  line-height: 1.9;
+}
+.policy-main .button {
+  margin-top: 10px;
+}
+.policy-footer {
+  border-top: 1px solid var(--line);
+  font-size: 9px;
+  color: #94a085;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+@media (max-width: 600px) {
+  .policy-header {
+    height: 85px;
+  }
+  .policy-header .text-link {
+    font-size: 8px;
+  }
+  .policy-main {
+    padding-top: 38px;
+    padding-bottom: 40px;
+  }
+  .policy-main h1 {
+    font-size: 37px;
+    letter-spacing: -1.5px;
+  }
+  .policy-intro {
+    font-size: 12px;
+  }
+  .policy-nav {
+    gap: 15px;
+    margin: 25px 0;
+    padding: 16px 0;
+  }
+  .policy-nav a {
+    font-size: 9px;
+  }
+  .policy-main section h2 {
+    font-size: 18px;
+  }
+  .policy-main section p {
+    font-size: 11px;
+    line-height: 1.9;
+  }
+}
